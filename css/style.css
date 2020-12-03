@@ -1,0 +1,196 @@
+:root{
+    --primery-color: #c72727;
+    --secondary-color: #f99500;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --max-width: 1100px;
+    }
+
+    .Category{
+        --sports-color: #f99500;
+        --ent-color: #a66bbe;
+        --tech-color: #009cff;
+    }
+
+    *{
+        margin:0;
+        padding:0;
+        
+        /* background-color: red; */
+        box-sizing: border-box;
+
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        background: var(--light-color);
+        background-color: var(--light-color);
+    }
+    a{
+        text-decoration: none;
+        color:#333;
+    }
+
+
+    ul{
+        list-style: none;;
+
+    }
+
+    img{
+        width:100%
+    }
+
+
+
+h1, h2, h3, h4, h5{
+    margin-bottom: 0.55rem;
+    line-height:1.3;
+}
+
+/* Navbar */
+#Main-Navbar{
+position:sticky;
+top:0;
+z-index:2;
+background-color:#fff;
+
+
+
+}
+
+
+
+#Main-Navbar .Container{
+   
+ display: grid;
+ grid-template-columns: 6fr 3fr 2fr;
+ align-items: center;;
+ text-align: center;
+ padding:1rem;
+}
+
+#Main-Navbar .logo{
+    width: 180px;
+}
+
+#Main-Navbar ul {
+    justify-self:end;
+    display:flex;
+    align-items: center;;
+}
+
+#Main-Navbar ul li a{
+    
+    font-weight: bolder;
+    padding: 0.71rem;;
+}
+
+#Main-Navbar ul li a.Current{
+background-color: var(--primery-color);
+}
+
+#Main-Navbar ul li a:hover{
+    color:#333;
+    background-color: var(--light-color);
+}
+
+#Main-Navbar .Social{
+    justify-self: center;
+}
+
+
+#Main-Navbar .Social a i{
+    margin-right: 0.77rem;
+    background-color: #fff;
+    color:#333;
+}
+
+
+/* Showcase */
+#Showcase{
+    background-color: #333;
+    color: #fff;
+    position: relative;
+  
+        
+}
+
+
+#Showcase::before{
+    content:'';
+    background: url('../img/featured.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    opacity: 0.4;
+}
+
+
+#Showcase .Showcase-Container{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    height:50vh;
+    }
+
+    #Showcase  .Showcase-Content{
+        z-index:1;
+        
+    }
+
+
+    #Showcase  .Showcase-Content p{
+        margin-bottom: 1rem;;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

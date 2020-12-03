@@ -1,0 +1,65 @@
+:root{
+    --primery-color: #c72727;
+    --secondary-color: #f99500;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --max-width: 1100px;
+    }
+
+    .Category{
+        --sports-color: #f99500;
+        --ent-color: #a66bbe;
+        --tech-color: #009cff;
+    }
+
+.Container{
+    max-width:var(--max-width);
+    margin:auto;
+    padding: 0 2rem;
+    overflow:hidden;
+}
+
+.Category{
+    display:inline-block;
+    padding:3px 6px;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size:0.55rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Category-Sports{
+    background-color: var(--sports-color);
+}
+.Category-Tech{
+    background-color: var(--tech-color);
+}
+.Category-Ent{
+    background-color: var(--ent-color);
+}
+
+
+
+.btn{
+    color:#fff;
+    display:inline-block;
+    padding: 0.5rem 1.5rem;
+    background: var(--dark-color);
+}
+
+.btn-primery{background-color: var(--primery-color);}
+.btn-light{background-color: var(--light-color);}
+.btn-secondary{background-color: var(--secondary-color);}
+
+
+.btn-block{
+    display:block;
+    width:100%;
+}
+
+
+.btn:hover{
+    opacity: 0.6;
+}
